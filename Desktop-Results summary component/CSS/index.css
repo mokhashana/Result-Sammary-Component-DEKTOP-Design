@@ -1,0 +1,299 @@
+.main-container {
+    width: 1440px;
+    margin: 500px;
+}
+
+.result {
+    width: calc(1220px / 2);
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 55%);
+    height: 880px;
+    border-radius: 45px;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.result .head-text {
+    /* margin-top: 20px; */
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 2.5rem;
+    color: hsl(241, 100%, 89%);
+    position: absolute;
+    top: 22px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.counter {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(to bottom, hsla(241, 72%, 46%, 1) 0%, hsl(241, 81%, 54%) 100%);
+    position: absolute;
+    left: 130px;
+    top: 175px;
+    border-radius: 200px;
+}
+
+.counter .one {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 8rem;
+    color: white;
+    position: absolute;
+    bottom: -10px;
+    text-align: center;
+}
+
+.counter .two {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 2rem;
+    color: hsl(241, 100%, 75%);
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+}
+
+.result .evaluation {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    position: absolute;
+    bottom: 185px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.result article {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 2rem;
+    color: hsl(241, 100%, 89%);
+    position: absolute;
+    bottom: 85px;
+    text-align: center;
+    /* text-transform: capitalize; */
+}
+
+.summary {
+    width: calc(1242px / 2);
+    background-color: white;
+    height: 880px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    position: relative;  
+    top: -880px;
+    left: 568px; 
+    box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.28); 
+}
+
+.main-container .summary .head-text {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 2.5rem;
+    color: hsl(224, 30%, 27%);
+    position: absolute;
+    top: 22px;
+    left: 102px;
+    text-transform: capitalize;
+}
+
+.info .one {
+    display: inline-flex;
+    background-color: hsl(0, 100%, 95%);
+    width: 442px;
+    height: 90px;
+    border-radius: 25px;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    align-items: center;
+}
+
+.img-one {
+    width: inherit;
+    height: 35px;
+    position: absolute;
+    left: -180px;
+}
+
+.one-p-one {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 2rem;
+    color: hsl(0, 100%, 67%);
+    position: absolute;
+    /* top: 22px; */
+    left: 82px;
+    text-transform: capitalize;
+}
+
+.one-p-two {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1.5rem;
+    position: absolute;
+    color: hsl(224, 30%, 27%);
+    /* top: 22px; */
+    left: 312px;
+    text-transform: capitalize;
+}
+
+.info .two {
+    display: inline-flex;
+    background-color: hsl(39, 100%, 95%);
+    width: 442px;
+    height: 90px;
+    border-radius: 25px;
+    position: absolute;
+    top: 290px;
+    left: 100px;
+    align-items: center;
+}
+
+.img-two {
+    width: inherit;
+    height: 35px;
+    position: absolute;
+    left: -180px;
+}
+
+.two-p-one {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 2rem;
+    color: hsl(39, 100%, 56%);
+    position: absolute;
+    /* top: 22px; */
+    left: 82px;
+    text-transform: capitalize;
+}
+
+.two-p-two {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1.5rem;
+    position: absolute;
+    color: hsl(224, 30%, 27%);
+    /* top: 22px; */
+    left: 312px;
+    text-transform: capitalize;
+}
+
+.info .three {
+    display: inline-flex;
+    background-color: hsl(166, 100%, 95%);
+    width: 442px;
+    height: 90px;
+    border-radius: 25px;
+    position: absolute;
+    top: 410px;
+    left: 100px;
+    align-items: center;
+}
+
+.img-three {
+    width: inherit;
+    height: 35px;
+    position: absolute;
+    left: -180px;
+}
+
+.three-p-one {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 2rem;
+    color: hsl(166, 100%, 37%);
+    position: absolute;
+    /* top: 22px; */
+    left: 82px;
+    text-transform: capitalize;
+}
+
+.three-p-two {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1.5rem;
+    position: absolute;
+    color: hsl(224, 30%, 27%);
+    /* top: 22px; */
+    left: 312px;
+    text-transform: capitalize;
+}
+
+.info .four {
+    display: inline-flex;
+    background-color: hsl(234, 85%, 95%);
+    width: 442px;
+    height: 90px;
+    border-radius: 25px;
+    position: absolute;
+    top: 530px;
+    left: 100px;
+    align-items: center;
+}
+
+.img-four {
+    width: inherit;
+    height: 35px;
+    position: absolute;
+    left: -180px;
+}
+
+.four-p-one {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 2rem;
+    color: hsl(234, 85%, 45%);
+    position: absolute;
+    /* top: 22px; */
+    left: 82px;
+    text-transform: capitalize;
+}
+
+.four-p-two {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1.5rem;
+    position: absolute;
+    color: hsl(224, 30%, 27%);
+    /* top: 22px; */
+    left: 312px;
+    text-transform: capitalize;
+}
+
+span {
+    color: hsl(224deg 30% 27% / 50%);
+}
+
+.continue-button {
+    background: hsl(224, 30%, 27%);
+    width: 442px;
+    height: 90px;
+    border-radius: 100px;
+    position: relative;
+    top: 700px;
+    left: 100px;
+    cursor: pointer;
+}
+
+.continue-button :hover {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 55%);
+    width: 442px;
+    height: 90px;
+    border-radius: 100px;    /*problem here*/
+}
+
+.continue-button p {
+    width: inherit;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    bottom: -8px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
